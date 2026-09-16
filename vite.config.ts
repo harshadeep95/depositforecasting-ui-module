@@ -9,11 +9,7 @@ export default defineConfig({
     TanStackRouterVite(),
     tsconfigPaths(),
     tailwindcss(),
-    react({
-      babel: {
-        plugins: [["@babel/plugin-proposal-decorators", { version: "2023-11" }]],
-      },
-    }),
+    react(),
   ],
   server: {
     middlewareMode: false,
