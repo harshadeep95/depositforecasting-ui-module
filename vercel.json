@@ -1,9 +1,6 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "env": {
-    "VITE_OPENAI_API_KEY": "@openai_api_key"
-  },
   "routes": [
     {
       "src": "/(.*)",
