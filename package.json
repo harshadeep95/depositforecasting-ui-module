@@ -3,7 +3,7 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DepositIQ: Interactive retail deposit forecasting with what-if scenarios - Free/Open version without Lovable",
   "scripts": {
     "dev": "vite",
